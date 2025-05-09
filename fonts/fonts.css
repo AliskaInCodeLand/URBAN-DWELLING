@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Lato Regular';
+    src:
+        url('./lato_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./lato_regular.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Lato Medium';
+    src: url('./lato_medium.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./lato_medium.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+}
+
+@font-face {
+    font-family: 'Lato Semibold';
+    src:
+        url('./lato_semibold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./lato_semibold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+}
+
+@font-face {
+    font-family: 'Lato Black';
+    src:
+        url('./lato_black.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./lato_black.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: 
+        url('./korataki.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./korataki.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('./roboto_regular.woff') format('woff'),
+}

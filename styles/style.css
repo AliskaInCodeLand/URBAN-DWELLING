@@ -1,0 +1,726 @@
+.page {
+    color:#231815;
+    font-family: "Lato Regular", sans-serif;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 400;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.bar{
+    width: 100%;
+    background-color: #231815;
+    min-height: 40px;
+    color: #FFFFFF;
+}
+
+.bar-info{
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    justify-content: end;
+}
+
+.info {
+    color:#FFFFFF;
+    display: flex;
+    gap: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.logo {
+ margin: 12px 0;
+ display: flex;
+ align-content: end;
+ gap: 12px;
+}
+
+.logo-image {
+    width: 56px;
+    aspect-ratio: 1/1;
+}
+
+.logo-name {
+    align-self: end;
+}
+
+.menu{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    gap: 100px;
+    font-weight: 600;
+    width: 479px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+}
+
+.search-container{
+    width: 170px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 88.6364px;
+    padding: 12px 14px 12px 21px;
+    display: flex;
+    align-items: center;
+}
+
+.search-line{
+    font-family: "Lato Regular", sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.search-normal{
+    width: 22px;
+    aspect-ratio: 1/1;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    width: 138px;
+    height: 39px;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.main{
+    margin: 60px 0;
+}
+
+.main-title{
+    font-family: 'Korataki';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 140%;
+    color: #231815;
+    margin-bottom: 40px;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-top{
+    width: 100%;
+    height: 477px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-action{
+    width: 126px;
+    height: 38px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #231815;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lato Regular";
+    color: #FFFFFF;
+}
+
+.card-btn{
+    position: absolute;
+    z-index: 10;
+    top: 409px;
+    left: 31px;
+    right: 31px;
+    height: 48px;
+    transform: translate(0%, 1000%);
+    transition: 0.3s ease-out;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E45302;
+    border-radius: 100px;
+    font-family: "Lato Semibold";
+    padding: 0;
+    color: #FFFFFF;    
+}
+
+.card-btn a {
+    width: 90px;
+    height: 28px;
+}
+
+.card-top:hover button {
+    transform: translate(0, 0);
+}
+
+.card-image{
+    height: 100%;
+}
+
+.card-bottom{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-title{
+    font-family: 'Lato Black';
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.card-prices{
+    font-size: 22px;
+    line-height: 140%;
+    display: flex;
+    gap: 16px;
+}
+
+.card-price{
+    font-family: 'Lato Semibold';
+    display: flex;
+    gap: 5px;
+    color: #231815;
+}
+
+.new {
+    font-family: 'Lato Black';
+    color: #E45302;
+}
+
+.old{
+    text-decoration-line: line-through;
+    color: #808080;
+}
+
+.valute{
+    font-family: 'Lato Black';
+}
+
+.footer {
+    width: 100%;
+    background-color: #231815;
+    color: #F5F5F5;
+    padding: 60px 0;
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.footer-info > .logo {
+    margin: 0;
+    align-items: start;
+    height: 62px;
+}
+
+.footer-info > .logo > .logo-image {
+    width: 62px;
+}
+
+.text-info{
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.text-title-info{
+    font-family: 'Lato Black';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.services{
+    grid-column: 3;
+    grid-row: span 2;
+}
+
+.text-info > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-text{
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Roboto Regular';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left {
+    align-items: end;
+}
+
+.rigth {
+    justify-content: end;
+    align-items: start;
+}
+
+
+.contacts-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pay{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.pay-container{
+    width: 215px;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (width > 769px) and (width < 1600px) {
+    .bar-info {
+        width: clamp(700px, 1rem + 0vw, 1240px);
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    .container {
+        /* width: 1240px; */
+        width: clamp(700px, 1rem + 0vw, 1240px);
+    }
+
+    .header {
+        width: clamp(700px, 1rem + 0vw, 1240px);
+    }
+
+    .menu{
+        gap: 10px;
+        width: clamp(200px, 1rem + 0vw, 290px);
+        font-size: 12px;
+    }
+
+    .search-container {
+        width: 100px;
+    }
+
+
+    .main-content {
+        gap: clamp(10px, 1rem + 0vw, 30px);
+    }
+
+    .card-top {
+        width: 100%;
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        column-gap: 40px;
+    }
+
+}
+
+@media (width > 390px) and (width < 769px) {
+    .bar {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        position: relative;
+        z-index: 1000;
+    }
+
+    /* Стилизация кнопки меню */
+    .menu-btn{
+        display: block;
+        background: none;
+        border: none;
+        outline: none;
+    }
+
+    .logo-image {
+        width: 37px;
+        aspect-ratio: 1/1;
+    }
+
+    .logo-name {
+        align-self: end;
+        height: 20px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .container {
+        width: clamp(320px, 90vw  , 680px);
+    }
+
+    .main {
+        margin: 50px 0;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .main-content {        
+        display: grid;
+        grid-template-columns: repeat(2, clamp(230px, 40%, 320px));
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card-btn {
+        top: 390px;
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
+        column-gap: 40px;
+    }
+
+    .footer-info>.logo {
+        grid-column: span 3;
+        grid-row: 1;
+        height: 47px;
+        margin-bottom: 33px;
+    }
+
+    .footer-info>.logo>.logo-image {
+        width: 47px;
+    }
+
+    .footer-info>.logo>.logo-name {
+        height: 26px;
+    }
+
+    .text-info {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .contacts {
+        grid-column: 2;
+        grid-row: 2;
+        margin-bottom: 37px;
+    }
+
+    .contacts a {
+        font-size: clamp(0.5rem, -0.015rem + 2.111vw, 1rem);
+        word-wrap: break-word;
+    }
+
+    .services{
+        grid-column: 3;
+        grid-row: 2/4;
+        margin-bottom: 40px;
+    }
+
+    .footer-text .left{
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+
+    .text-info > ul {
+        gap: 30px;
+    }
+
+    .left {
+        grid-column: 1/2;
+        grid-row: 3;
+        align-items: start;
+    }
+
+    .rigth {
+        grid-column: 2/ 2 span;
+        grid-row: 4;
+        margin-left: clamp(0, 10vw, 47px);
+        white-space: wrap;
+    }
+
+    .rigth > p {
+        white-space: wrap;
+    }
+
+    .pay {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .pay-container{
+        width: clamp(100px, 10vw, 215px);
+    }
+}
+
+@media (width > 300px) and (width < 391px) {
+    .bar {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        outline: none;
+    }
+
+    .logo-image {
+        width: 37px;
+        aspect-ratio: 1/1;
+    }
+
+    .logo-name {
+        align-self: end;
+        height: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 320px;
+    }
+
+    .main {
+        margin: 40px 0;
+    }
+
+    .main-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .main-content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);;
+        column-gap: 10px;
+        row-gap: 30px;
+    }
+
+    .card {
+        max-height: 320px;
+    }
+    
+
+    .card-top {
+        max-height: 230px;
+        width: 155px;
+    }
+
+    .card-action {
+        width: 35%;
+        height: 10px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background: #231815;
+        border-radius: 100px;
+        line-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lato Regular";
+        font-size: 12px;
+    }
+
+    .card-btn {
+        top: 88%;
+        left: 10%;
+        right: 10%;
+        height: 20px;
+    }
+
+    .card-btn a {
+        width: 90px;
+        height: 18px;
+        font-size: 12px;
+    }
+
+    .card-title{
+        font-family: 'Lato Medium';
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .card-bottom {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-prices {
+        font-size: 16px;
+        line-height: 140%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .card-price {
+        font-family: 'Lato Semibold';
+        display: flex;
+        gap: 2px;
+        color: #231815;
+    }
+
+    .new {
+        font-family: 'Lato Black';
+        color: #E45302;
+    }
+
+    .old {
+        text-decoration-line: line-through;
+        color: #808080;
+        font-size: 14px;
+    }
+
+    .valute {
+        font-family: 'Lato Black';
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        row-gap: 30px;
+        column-gap: 0px;
+    }
+
+    .footer-info>.logo {
+        grid-row: 1;
+        height: 40px;
+        margin-bottom: 35px;
+    }
+
+    .footer-info>.logo>.logo-image {
+        width: 40px;
+    }
+
+    .footer-info>.logo>.logo-name {
+        height: 26px;
+    }
+
+    .text-info {
+        grid-row: 2;
+    }
+
+    .contacts {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .services {
+        grid-column: 1;
+        grid-row: 4;
+        text-align: left;
+    }
+
+    .footer-text .left {
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+
+    .footer-info>.logo {
+        margin-bottom: 0;
+    }
+
+    .text-info>ul {
+        gap: 30px;
+    }
+
+    .left {
+        grid-row: 5;
+        align-items: start;
+    }
+
+    .rigth {
+        grid-row: 7;
+        grid-column: 1;
+        margin-left: 0;
+    }
+
+    .pay {
+        grid-row: 6;
+        justify-content: start;
+    }
+}
